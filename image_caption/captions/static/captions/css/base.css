@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 5rem;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+input[type="file"] {
+    padding: 0.5rem;
+}
+
+select, input[type="file"] {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    background-color: #e9ecef;
+}
+
+#uploadedImage {
+    border-radius: 12px;
+    margin-top: 1rem;
+    border: 1px solid #dee2e6;
+}
+
+.alert-error {
+    color: #d9534f;
+}
+
+.alert-success {
+    color: #5cb85c;
+}
