@@ -1,38 +1,10 @@
-# Django web framework
-Django==4.2.2
-
-# Image processing
-Pillow==10.2.0
-
-# For handling uploaded files
-django-cleanup==7.0.0
-
-# Translation support
-googletrans==4.0.0-rc1
-
-# Machine learning & deep learning
-torch==2.2.0
-torchvision==0.17.0
-torchaudio==2.2.0
-transformers==4.39.1
-sentencepiece==0.1.99
-tqdm==4.66.2
-
-# Language processing
-nltk==3.8.1
-
-# Utility libraries
-numpy==1.26.4
-requests==2.31.0
-scikit-learn==1.4.1.post1
-matplotlib==3.8.3
-pandas==2.2.1
-
-# For GPU support (optional, if using CUDA)
-# torchvision, torch, and torchaudio above should match CUDA version if GPU is used
-
-# If you're using HuggingFace pretrained models
-huggingface-hub==0.23.1
-
-# If you're using multilingual support and models like MarianMT
-protobuf==4.25.3
+pip install django
+pip install torch torchvision torchaudio 
+pip install transformers
+pip install accelerate
+pip install pillow
+pip install opencv-python
+pip install moviepy
+pip install deep-translator
+pip install tqdm
+pip install matplotlib
