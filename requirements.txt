@@ -1,10 +1,12 @@
-pip install django
-pip install torch torchvision torchaudio 
-pip install transformers
-pip install accelerate
-pip install pillow
-pip install opencv-python
-pip install moviepy
-pip install deep-translator
-pip install tqdm
-pip install matplotlib
+django
+torch
+torchvision
+torchaudio
+transformers
+accelerate
+pillow
+opencv-python
+moviepy
+deep-translator
+tqdm
+matplotlib
